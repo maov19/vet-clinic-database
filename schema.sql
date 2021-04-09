@@ -15,3 +15,4 @@ CREATE TABLE animals (
     neutered BOOLEAN,
     weight_kg DECIMAL(5, 2)
 );
+
