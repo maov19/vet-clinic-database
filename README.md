@@ -64,7 +64,13 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
+<<<<<<< HEAD
 > Coming soon!
+=======
+> Add a link to your deployed project.
+
+- [Live Demo Link](<replace-with-your-deployment-URL>)
+>>>>>>> 92000ac (Quick fix)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
