@@ -4,7 +4,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -60,11 +59,64 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
+<!-- GETTING STARTED -->
 
-<!-- AUTHORS -->
+## 💻 Getting Started <a name="getting-started"></a>
 
-## 👥 Authors <a name="authors"></a>
+### Prerequisites
+
+- IDE (code editor) like: VScode, Sublime, etc.
+- [Git](https://www.linode.com/docs/guides/how-to-install-git-on-linux-mac-and-windows/)
+
+
+### Setup
+
+1. Download the **Zip** file or clone the repo with:
+```bash
+git clone https://github.com/maov19/vet-clinic-database/
+```
+2. To access cloned directory run:
+```bash
+cd vet-clinic-database
+```
+
+### Install
+
+> To install project's dependencies run:
+
+```bash
+npm install
+```
+
+### Usage
+
+To run the project, execute the following command: 
+
+- Excute below command in the terminal to serve live 
+```bash
+npm run dev
+```
+
+## Run Test for Linters
+
+For tracking linter errors locally you need to follow these steps:
+
+1. For tracking linter errors in HTML files run:
+```bash 
+npx hint .
+```
+
+2. For tracking linter errors in CSS or SASS files run:
+
+```bash
+npx stylelint "\*_/_.{css,scss}"
+```
+
+3. For tracking linter errors in JavaScript files run:
+
+```bash
+npx eslint .
+```
 
 👤 **Martin Ossa**
 
@@ -105,6 +157,11 @@ If you like this project, leave a star!
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank Microverse and all my coding partners for their support.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
