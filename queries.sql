@@ -23,3 +23,38 @@ SELECT * FROM animals WHERE name <> 'Gabumon';
 
 -- Animals with a weight between 10.4kg and 17.3kg (including the animals with the weights that equals precisely 10.4kg or 17.3kg)
 SELECT * FROM animals WHERE weight_kg BETWEEN 10.4 AND 17.3;
+
+-- Set species as unspecified and rollback
+BEGIN
+    update animals set species = 'unspecified';
+    select * from animals;
+ROLLBACK
+    select * from animals;
+
+-- Update digimon for animals ending in mon and pokemon for the rest
+BEGIN
+UPDATE animals SET species = 'digimon' WHERE name LIKE '%mon';
+UPDATE animals SET species = 'pokemon' WHERE species IS NULL;
+COMMIT
+select * from animals;
+
+-- Delete all data from table and rollback
+BEGIN;
+    DELETE FROM animals;
+    select * from animals;
+rollback;
+select * from animals;
+
+-- Delete animals born after 01/01/2022
+-- Create savepoint
+-- Multiply weithg by - 1
+-- Rollback to savepoint
+-- Multiply negative weights by -1
+BEGIN
+    DELETE FROM animals WHERE date_of_birth > '2022-01-01';
+    SAVEPOINT my_savepoint;
+    UPDATE animals SET weight_kg = weight_kg * -1;
+    ROLLBACK TO my_savepoint;
+    UPDATE animals SET weight_kg = weight_kg * -1 WHERE weight_kg < 0;
+    COMMIT
+select * from animals;
