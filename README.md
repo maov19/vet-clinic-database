@@ -22,14 +22,17 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Vet clinic databae <a name="about-project"></a>
+# 📖 [your_project_name] <a name="about-project"></a>
 
+> Describe your project in 1 or 2 sentences.
 
-**[VCD]** is a backend database structure for pet data, aimed for a vet shop.
+**[your_project__name]** is a...
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
+
+> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Client</summary>
@@ -56,7 +59,11 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Display pet data]**
+> Describe between 1-3 key features of the application.
+
+- **[key_feature_1]**
+- **[key_feature_2]**
+- **[key_feature_3]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -64,13 +71,9 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-<<<<<<< HEAD
-> Coming soon!
-=======
 > Add a link to your deployed project.
 
 - [Live Demo Link](<replace-with-your-deployment-URL>)
->>>>>>> 92000ac (Quick fix)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -78,17 +81,13 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Coming soon!
+> Describe how a new developer could make use of your project.
 
-<!-- > Describe how a new developer could make use of your project.
-
-To get a local copy up and running, follow these steps. -->
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-> Coming soon!
-
-<!-- In order to run this project you need: -->
+In order to run this project you need:
 
 <!--
 Example command:
@@ -100,7 +99,7 @@ Example command:
 
 ### Setup
 
-> Coming soon!
+Clone this repository to your desired folder:
 
 <!--
 Example commands:
@@ -113,7 +112,8 @@ Example commands:
 
 ### Install
 
-> Coming soon!
+Install this project with:
+
 <!--
 Example command:
 
@@ -125,7 +125,7 @@ Example command:
 
 ### Usage
 
-> Coming soon!
+To run the project, execute the following command:
 
 <!--
 Example command:
@@ -137,7 +137,7 @@ Example command:
 
 ### Run tests
 
-> Coming soon!
+To run tests, run the following command:
 
 <!--
 Example command:
@@ -149,7 +149,7 @@ Example command:
 
 ### Deployment
 
-> Coming soon!
+You can deploy this project using:
 
 <!--
 Example:
@@ -165,11 +165,19 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Martin Ossa**
+> Mention all of the collaborators of this project.
 
-- GitHub: [@maov19](https://github.com/maov19)
-- Twitter: [@maov08](https://twitter.com/maov08)
-- LinkedIn: [Martin Ossa](https://linkedin.com/in/martin-ossa)
+👤 **Author1**
+
+- GitHub: [@githubhandle](https://github.com/githubhandle)
+- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+
+👤 **Author2**
+
+- GitHub: [@githubhandle](https://github.com/githubhandle)
+- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -177,9 +185,11 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Add pets]**
-- [ ] **[Remove pets]**
-- [ ] **[Edit data]**
+> Describe 1 - 3 features you will add to the project.
+
+- [ ] **[new_feature_1]**
+- [ ] **[new_feature_2]**
+- [ ] **[new_feature_3]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -189,13 +199,17 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
+Feel free to check the [issues page](../../issues/).
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, leave a star!
+> Write a message to encourage readers to support your project
+
+If you like this project...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -203,7 +217,9 @@ If you like this project, leave a star!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse and all my coding partners for their support.
+> Give credit to everyone who inspired your codebase.
+
+I would like to thank...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -211,7 +227,15 @@ I would like to thank Microverse and all my coding partners for their support.
 
 ## ❓ FAQ <a name="faq"></a>
 
-> Coming soon!
+> Add at least 2 questions new developers would ask when they decide to use your project.
+
+- **[Question_1]**
+
+  - [Answer_1]
+
+- **[Question_2]**
+
+  - [Answer_2]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -220,5 +244,7 @@ I would like to thank Microverse and all my coding partners for their support.
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
+
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
