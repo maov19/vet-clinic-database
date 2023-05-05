@@ -30,18 +30,48 @@ VALUES
     ('Ditto', '2022-05-14', 4, true, 22.00, 2, NULL);
 
 -- Update the species_id and owner_id based on animal name
-UPDATE animals
-SET id = 
-    CASE 
-        WHEN name LIKE '%mon' THEN 2
-        ELSE 1
-    END,
-    owner_id = 
-    CASE
-        WHEN name = 'Agumon' THEN 1
-        WHEN name IN ('Gabumon', 'Pikachu') THEN 2
-        WHEN name IN ('Devimon', 'Plantmon') THEN 3
-        WHEN name IN ('Charmander', 'Squirtle', 'Blossom') THEN 4
-        WHEN name IN ('Angemon', 'Boarmon') THEN 5
-        ELSE NULL
-    END;
+  UPDATE animals
+  SET species_id = (SELECT id from species WHERE name = 'Digimon')
+  WHERE name like '%mon';
+
+  UPDATE animals
+  SET species_id = (SELECT id from species WHERE name = 'Pokemon')
+  WHERE species_id IS NULL;
+
+-- Add vets data
+INSERT INTO vets (name, age, date_of_graduation)
+VALUES
+    ('William Tatcher', 45, '2000-04-23'),
+    ('Maisy Smith', 26, '2019-01-17'),
+    ('Stephanie Mendez', 64, '1981-05-04'),
+    ('Jack Harkness', 38, '2008-06-08');
+
+INSERT INTO specializations (vet_id, species_id) VALUES
+(1, 1),
+(2, 1),
+(2, 2),
+(3, 2);
+
+INSERT INTO visits (id, animal_id, vet_id, visit_date) VALUES
+(1, 1, 1, '2020-05-24'),
+(2, 1, 2, '2020-07-22'),
+(3, 2, 3, '2021-02-02'),
+(4, 3, 4, '2020-01-05'),
+(5, 3, 4, '2020-03-08'),
+(6, 3, 4, '2020-05-14'),
+(7, 4, 2, '2021-05-04'),
+(8, 5, 3, '2021-02-24'),
+(9, 6, 4, '2019-12-21'),
+(10, 6, 1, '2020-08-10'),
+(11, 6, 4, '2021-04-07'),
+(12, 7, 2, '2019-09-29'),
+(13, 8, 3, '2020-10-03'),
+(14, 8, 3, '2020-11-04'),
+(15, 9, 4, '2019-01-24'),
+(16, 9, 4, '2019-05-15'),
+(17, 9, 4, '2020-02-27'),
+(18, 9, 4, '2020-08-03'),
+(19, 10, 2, '2020-05-24'),
+(20, 10, 1, '2021-01-11');
+
+
