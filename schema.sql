@@ -55,6 +55,19 @@ CREATE TABLE visits (
   FOREIGN KEY (vet_id) REFERENCES vets(id)
 );
 
+-- Add an email column to your owners table
+ALTER TABLE owners ADD COLUMN email VARCHAR(120);
 
+-- Improved SELECT COUNT(*) FROM visits where animal_id = 4;
+-- Add an index on the animal_id column of the visits table
+CREATE INDEX visits_animal_id_idx ON visits (animal_id);
+
+-- Improved SELECT * FROM visits where vet_id = 2;
+-- Add an index on the vet_id column of the visits table
+CREATE INDEX visits_vet_id_idx ON visits (vet_id);
+
+-- Improved SELECT * FROM owners where email = 'owner_18327@mail.com';
+-- Add an index on the email column of the owners table
+CREATE INDEX owners_email_idx ON owners (email);
 
 
