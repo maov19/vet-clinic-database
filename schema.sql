@@ -66,4 +66,8 @@ CREATE INDEX visits_animal_id_idx ON visits (animal_id);
 -- Add an index on the vet_id column of the visits table
 CREATE INDEX visits_vet_id_idx ON visits (vet_id);
 
+-- Improved SELECT * FROM owners where email = 'owner_18327@mail.com';
+-- Add an index on the email column of the owners table
+CREATE INDEX owners_email_idx ON owners (email);
+
 
