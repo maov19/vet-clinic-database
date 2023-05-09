@@ -38,3 +38,9 @@ CREATE TABLE invoice_items (
 	FOREIGN KEY invoice_id INT REFERENCES invoices(id),
 	FOREIGN KEY treatment_id INT REFERENCES treatments(id),
 );
+
+
+----- Performance------
+
+CREATE INDEX patients_index ON medical_histories(patient_id)
+CREATE INDEX medical_histories_index ON invoices(medical_history__id)
