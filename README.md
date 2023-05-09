@@ -124,6 +124,10 @@ npx eslint .
 - Twitter: [@maov08](https://twitter.com/maov08)
 - LinkedIn: [Martin Ossa](https://linkedin.com/in/martin-ossa)
 
+👤 **Enis Memic**
+- GitHub: [@Enis Memic](https://github.com/enis-memic)
+- LinkedIn: [enis-memic](https://linkedin.com/in/enis-memic)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
